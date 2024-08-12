@@ -12,8 +12,10 @@ public class Course {
         this.subject = subject;
         this.credit = credit;
         this.grade = grade;
+    }
 
-
+    public double multiflyCreditAndCourseGrade() {
+        return credit * getGradeToNumber();
     }
 
     public int getCredit() {
@@ -44,4 +46,5 @@ public class Course {
         }
         return grade;
     }
+
 }
