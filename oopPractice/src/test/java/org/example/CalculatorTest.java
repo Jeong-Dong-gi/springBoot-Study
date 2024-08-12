@@ -28,8 +28,8 @@ public class CalculatorTest {
     @Test
     void subtractionTest() {
 
-        int result = Calculator.calculate(1, "-", 2);
+        int result = Calculator.calculate(3, "-", 2);
 
-        assertThat(result).isEqualTo(-1);
+        assertThat(result).isEqualTo(1);
     }
 }
