@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.421s</div>
+<div class="counter">0.434s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">createTest()</td>
-<td class="success">0.421s</td>
+<td class="success">0.434s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,67 +87,68 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>21:58:28,785 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
-21:58:28,785 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/jeongdong-gi/Desktop/jdbc-practice-2b784aff2014b93cafb467e97ef9f7265525b670/jdbc-practice/build/resources/main/logback.xml]
-21:58:28,834 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
-21:58:28,835 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
-21:58:28,839 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
-21:58:28,854 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
-21:58:28,854 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
-21:58:28,854 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.example] to DEBUG
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zaxxer.hikari] to DEBUG
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.jdbc.datasource] to DEBUG
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
-21:58:28,855 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
-21:58:28,855 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7fc6de5b - Registering current configuration as safe fallback point
+<pre>22:51:53,676 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+22:51:53,676 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/Users/jeongdong-gi/Desktop/jdbc-practice-2b784aff2014b93cafb467e97ef9f7265525b670/jdbc-practice/build/resources/main/logback.xml]
+22:51:53,725 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+22:51:53,725 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+22:51:53,730 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+22:51:53,746 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+22:51:53,746 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+22:51:53,746 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.example] to DEBUG
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.zaxxer.hikari] to DEBUG
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.jdbc.datasource] to DEBUG
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+22:51:53,747 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+22:51:53,747 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7fc6de5b - Registering current configuration as safe fallback point
 
-21:58:28.873 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
-21:58:28.880 [DEBUG] [Test worker] [o.s.jdbc.datasource.DataSourceUtils] - Fetching JDBC Connection from DataSource
-21:58:28.881 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - HikariPool-1 - configuration:
-21:58:28.896 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - allowPoolSuspension.............false
-21:58:28.896 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - autoCommit......................true
-21:58:28.896 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - catalog.........................none
-21:58:28.896 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionInitSql...............none
-21:58:28.896 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionTestQuery.............none
-21:58:28.897 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionTimeout...............30000
-21:58:28.897 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSource......................none
-21:58:28.897 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceClassName.............none
-21:58:28.897 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceJNDI..................none
-21:58:28.898 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceProperties............{password=&lt;masked&gt;}
-21:58:28.901 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - driverClassName.................&quot;org.h2.Driver&quot;
-21:58:28.901 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - exceptionOverrideClassName......none
-21:58:28.901 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - healthCheckProperties...........{}
-21:58:28.901 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - healthCheckRegistry.............none
-21:58:28.902 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - idleTimeout.....................600000
-21:58:28.902 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - initializationFailTimeout.......1
-21:58:28.902 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - isolateInternalQueries..........false
-21:58:28.902 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - jdbcUrl.........................jdbc:h2:mem://localhost/~/jdbc-practice;MODE=MySQL;DB_CLOSE_DELAY=-1
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - keepaliveTime...................0
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - leakDetectionThreshold..........0
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - maxLifetime.....................1800000
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - maximumPoolSize.................40
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - metricRegistry..................none
-21:58:28.903 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - metricsTrackerFactory...........none
-21:58:28.904 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - minimumIdle.....................40
-21:58:28.904 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - password........................&lt;masked&gt;
-21:58:28.904 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - poolName........................&quot;HikariPool-1&quot;
-21:58:28.904 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - readOnly........................false
-21:58:28.905 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - registerMbeans..................false
-21:58:28.905 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - scheduledExecutor...............none
-21:58:28.905 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - schema..........................none
-21:58:28.905 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - threadFactory...................internal
-21:58:28.905 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - transactionIsolation............default
-21:58:28.906 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - username........................&quot;sa&quot;
-21:58:28.906 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - validationTimeout...............5000
-21:58:28.906 [INFO ] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
-21:58:29.087 [INFO ] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
-21:58:29.089 [INFO ] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
-21:58:29.092 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - Executing SQL script from class path resource [db_schema.sql]
-21:58:29.097 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - 0 returned as update count for SQL: DROP TABLE IF EXISTS USERS
-21:58:29.104 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - 0 returned as update count for SQL: CREATE TABLE USERS ( userId varchar(12) NOT NULL, password varchar(12) NOT NULL, name varchar(20) NOT NULL, email varchar(50), PRIMARY KEY (userId) )
-21:58:29.104 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - Executed SQL script from class path resource [db_schema.sql] in 12 ms.
+22:51:53.765 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - Driver class org.h2.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@277050dc
+22:51:53.772 [DEBUG] [Test worker] [o.s.jdbc.datasource.DataSourceUtils] - Fetching JDBC Connection from DataSource
+22:51:53.773 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - HikariPool-1 - configuration:
+22:51:53.789 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - allowPoolSuspension.............false
+22:51:53.790 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - autoCommit......................true
+22:51:53.790 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - catalog.........................none
+22:51:53.790 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionInitSql...............none
+22:51:53.790 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionTestQuery.............none
+22:51:53.791 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - connectionTimeout...............30000
+22:51:53.791 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSource......................none
+22:51:53.791 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceClassName.............none
+22:51:53.791 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceJNDI..................none
+22:51:53.791 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - dataSourceProperties............{password=&lt;masked&gt;}
+22:51:53.795 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - driverClassName.................&quot;org.h2.Driver&quot;
+22:51:53.795 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - exceptionOverrideClassName......none
+22:51:53.795 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - healthCheckProperties...........{}
+22:51:53.796 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - healthCheckRegistry.............none
+22:51:53.796 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - idleTimeout.....................600000
+22:51:53.796 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - initializationFailTimeout.......1
+22:51:53.796 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - isolateInternalQueries..........false
+22:51:53.797 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - jdbcUrl.........................jdbc:h2:mem://localhost/~/jdbc-practice;MODE=MySQL;DB_CLOSE_DELAY=-1
+22:51:53.797 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - keepaliveTime...................0
+22:51:53.797 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - leakDetectionThreshold..........0
+22:51:53.797 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - maxLifetime.....................1800000
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - maximumPoolSize.................40
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - metricRegistry..................none
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - metricsTrackerFactory...........none
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - minimumIdle.....................40
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - password........................&lt;masked&gt;
+22:51:53.798 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - poolName........................&quot;HikariPool-1&quot;
+22:51:53.799 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - readOnly........................false
+22:51:53.799 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - registerMbeans..................false
+22:51:53.799 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - scheduledExecutor...............none
+22:51:53.799 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - schema..........................none
+22:51:53.800 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - threadFactory...................internal
+22:51:53.800 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - transactionIsolation............default
+22:51:53.800 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - username........................&quot;sa&quot;
+22:51:53.800 [DEBUG] [Test worker] [com.zaxxer.hikari.HikariConfig] - validationTimeout...............5000
+22:51:53.800 [INFO ] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Starting...
+22:51:53.973 [INFO ] [Test worker] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Added connection conn0: url=jdbc:h2:mem://localhost/~/jdbc-practice user=SA
+22:51:53.975 [INFO ] [Test worker] [com.zaxxer.hikari.HikariDataSource] - HikariPool-1 - Start completed.
+22:51:53.978 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - Executing SQL script from class path resource [db_schema.sql]
+22:51:53.983 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - 0 returned as update count for SQL: DROP TABLE IF EXISTS USERS
+22:51:53.990 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - 0 returned as update count for SQL: CREATE TABLE USERS ( userId varchar(12) NOT NULL, password varchar(12) NOT NULL, name varchar(20) NOT NULL, email varchar(50), PRIMARY KEY (userId) )
+22:51:53.990 [DEBUG] [Test worker] [o.s.jdbc.datasource.init.ScriptUtils] - Executed SQL script from class path resource [db_schema.sql] in 12 ms.
+22:51:54.077 [DEBUG] [HikariPool-1 housekeeper] [com.zaxxer.hikari.pool.HikariPool] - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
 </pre>
 </span>
 </div>
@@ -159,7 +160,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 8.8</a> at 2024. 8. 17. 오후 9:58:29</p>
+<a href="http://www.gradle.org">Gradle 8.8</a> at 2024. 8. 17. 오후 10:51:54</p>
 </div>
 </div>
 </body>
